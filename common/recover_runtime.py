@@ -363,7 +363,7 @@ def _add_common_args(p: argparse.ArgumentParser) -> None:
     p.add_argument("--predictor-backend", default="qwen3_emb")
     p.add_argument("--predictor-device", default="cpu")
     p.add_argument("--unc-metric", default="margin_top12")
-    p.add_argument("--unc-tau", type=float, default=1.6)
+    p.add_argument("--unc-tau", type=float, default=1.4)
     p.add_argument("--prefetch-depth", type=int, default=4)
     p.add_argument("--llm-batch-size", type=int, default=1)
     p.add_argument("--modular-schema-style", default="json_only")

@@ -6,7 +6,7 @@
 |---|----------|----|-----|------|
 | 1 | A | modular **pruned** | Qwen3-32B 4bit | `A/output/pruned/` |
 | 2 | A | modular **full** | Qwen3-32B 4bit | `A/output/full/` |
-| 3 | B | modular **adaptive** τ=1.6 | Qwen3-32B 4bit | `B/output/adaptive/` |
+| 3 | B | modular **adaptive** τ=1.4 | Qwen3-32B 4bit | `B/output/adaptive/` |
 | 4 | B | modular **full** | Qwen3-32B 4bit | `B/output/full/` |
 | 5 | C | **ori** adaptive | CodeLlama-34B 4bit | `C/output/ori/adaptive/` |
 | 6 | C | **ori** full | CodeLlama-34B 4bit | `C/output/ori/full/` |

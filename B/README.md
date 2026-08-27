@@ -3,7 +3,7 @@
 Qwen3-32B + modular KV。独立两组：**adaptive** vs **full**。
 
 ```
-MODE=adaptive: Embedding → margin_top12（τ=1.6）
+MODE=adaptive: Embedding → margin_top12（τ=1.4）
   ├─ margin ≥ τ → pruned
   └─ margin < τ → full
   对话内 sticky full

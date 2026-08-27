@@ -11,7 +11,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 RUNTIME_MODE = "adaptive"
 UNCERTAINTY_METRIC = "margin_top12"
-UNCERTAINTY_TAU = 1.6
+UNCERTAINTY_TAU = 1.4
 STICKY_FULL = True
 PREDICTOR_BACKEND = "qwen3_emb"
 PREDICTOR_DEVICE = "cpu"
@@ -25,7 +25,7 @@ LLM_BATCH_SIZE = 1
 LLM_LOAD_IN_4BIT = True
 LLM_LOAD_IN_8BIT = False
 LLM_MAX_NEW_TOKENS = 64
-LLM_MAX_CONTEXT_TOKENS = 8192
+LLM_MAX_CONTEXT_TOKENS = 4096
 # greedy：temperature>0 会走 multinomial，logits 一旦 inf/nan 会毒化整卡
 LLM_TEMPERATURE = 0.0
 MAX_CACHED_SCHEMAS = 8

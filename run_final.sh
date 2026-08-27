@@ -8,7 +8,7 @@ mkdir -p "${ROOT}/_eval_logs"
 exec > >(tee -a "${LOG}") 2>&1
 
 LIMIT="${LIMIT:-0}"
-export LIMIT NUM_GPUS="${NUM_GPUS:-4}" GPU_IDS="${GPU_IDS:-0,1,2,3}" UNC_TAU="${UNC_TAU:-1.6}"
+export LIMIT NUM_GPUS="${NUM_GPUS:-4}" GPU_IDS="${GPU_IDS:-0,1,2,3}" UNC_TAU="${UNC_TAU:-1.4}"
 RUN_A="${RUN_A:-1}"
 RUN_B="${RUN_B:-1}"
 RUN_C="${RUN_C:-1}"

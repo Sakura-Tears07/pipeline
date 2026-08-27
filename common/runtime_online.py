@@ -1036,7 +1036,7 @@ def main(pipeline_name: str = "unknown") -> None:
     parser.add_argument(
         "--unc-tau",
         type=float,
-        default=float(getattr(cfg, "UNCERTAINTY_TAU", 1.5)),
+        default=float(getattr(cfg, "UNCERTAINTY_TAU", 1.4)),
     )
     parser.add_argument(
         "--predictor-device",

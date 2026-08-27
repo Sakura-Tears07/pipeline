@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Runtime logs and eval artifacts
+_eval_logs/
+*.log
+
+# Experiment outputs (regenerated locally)
+A/output/
+B/output/
+C/output/
+output/
+
+# Large local dataset
+data/*.json
